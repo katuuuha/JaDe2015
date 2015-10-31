@@ -20,9 +20,9 @@ public class ShoppingCart {
 
 
         double tax;
-        if (customer.stateCode == "DE")
+        if (customer.getStateCode() == "DE")
             tax = total * .08d;
-        else if (customer.stateCode == "FR")
+        else if (customer.getStateCode() == "FR")
             tax = total * .09d;
         else
             tax = .03d;
