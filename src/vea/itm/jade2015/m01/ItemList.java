@@ -9,7 +9,7 @@ import java.util.HashMap;
  * @author Janis
  *
  */
-public abstract class ItemList {
+public abstract class ItemList implements ItemListInterface{
 	private HashMap<String,Item> items;
 	
 	ItemList(){
