@@ -6,7 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Shop s = new Shop();
-		s.addItem(new Item(2,"bla",9.4,"Fruits"));
+        Category c = new Category("Fruits",0.05);
+		s.addItem(new Item(2,"bla",9.4,c));
 		
 		System.out.println(s.getAllItems(new Customer()).toString());
 
