@@ -15,8 +15,8 @@ public class ShoppingCart {
     {
     	double total = 0;
     	for (Item item : orderItems) {
-			total += item.cost * item.quantity;
-		}
+            total += item.getCost() * item.getQuantity();
+        }
 
 
         double tax;
