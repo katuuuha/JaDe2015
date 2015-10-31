@@ -4,11 +4,13 @@ public class Item {
     private int quantity;
     private String code;
     private double cost;
+    private String category;
 
-    public Item(int quantity, String code, double cost){
+    public Item(int quantity, String code, double cost, String category){
     	this.quantity = quantity;
     	this.code = code;
     	this.cost = cost;
+        this.category = category;
     }
 
     public int getQuantity()
@@ -25,4 +27,9 @@ public class Item {
     {
         return cost;
     }
+
+    public String getCategory() {
+        return category;
+    }
+
 }
