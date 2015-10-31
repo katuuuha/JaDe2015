@@ -7,8 +7,12 @@ import java.util.ArrayList;
  */
 public interface ItemListInterface {
 
-    boolean addItem(Item item);
-    boolean removeItem(String code);
-    Item getItem(String code);
-    ArrayList<Item> getAllItems();
+	boolean addItem(Item item);
+
+	boolean removeItem(String code);
+
+	Item getItem(String code);
+
+	ArrayList<Item> getAllItems();
+
 }
