@@ -1,6 +1,7 @@
 package vea.itm.jade2015.m01;
 
 import java.util.ArrayList;
+import vea.itm.jade2015.m01.product.*;
 
 public class ShoppingCart {
 	

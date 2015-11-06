@@ -1,4 +1,4 @@
-package vea.itm.jade2015.m01;
+package vea.itm.jade2015.m01.product;
 
 /**
  * Created by katrina.zvaigzne on 10/31/2015.
